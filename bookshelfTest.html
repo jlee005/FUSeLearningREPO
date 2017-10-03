@@ -4,12 +4,12 @@
 <body>
     <h1><i>Welcome to the bookshelf</i></h1>
     <div class="tab">
-        <button class="tablinks" onclick="openBook(event, 'book1')">Small Teaching</button>
+        <button class="tablinks" onclick="openBook(event, 'book1')" id="defaultOpen">Small Teaching</button>
         <button class="tablinks" onclick="openBook(event, 'book2')">Make it Stick: The Science of Successful Learning</button>
         <button class="tablinks" onclick="openBook(event, 'book3')">Teaching and Learning: A Practical Guide</button>
         <button class="tablinks" onclick="openBook(event, 'book4')">Minds Online: Teaching Effectively with Technology</button>
     </div>
-    <div id="book1" class="tabcontent">
+    <div id="book1" id="defaultOpen" class="tabcontent">
         <div style="height:500px;width:800px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
         <img src="https://files.slack.com/files-pri/T7C064FE2-F7C3JRMV3/image.png">
         <h3>Small Teaching</h3>
@@ -74,10 +74,9 @@
             </p>
         </div>
     </div>
-
     <div id="book2" class="tabcontent">
 
-        <div style="height:600px;width:800px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+        <div style="height:500px;width:800px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
         <img src="https://files.slack.com/files-pri/T7C064FE2-F7BDL6VPB/image.png">
         <h3>Make it Stick: The Science of Successful Learning</h3>
         <p>FUN FUN book with entertaining, but pertinent examples from diverse fields—I think the research in this book influenced Lang’s book, Small Teaching.</p>
@@ -123,7 +122,7 @@
         </div>
     </div>
     <div id="book3" class="tabcontent">
-        <div style="height:600px;width:800px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+        <div style="height:500px;width:800px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
             <img src="https://files.slack.com/files-pri/T7C064FE2-F7BUXCXPU/teaching_and_learning_stem.jpg">
             <h3>Teaching and Learning: A Practical Guide</h3>
             <p>
@@ -132,7 +131,7 @@
                 Website: : <a href="http://www4.ncsu.edu/unity/lockers/users/f/felder/public/"> http://www4.ncsu.edu/unity/lockers/users/f/felder/public/ </a>
             </p>
             <p>
-                Dr. Richard M. Felder is the Hoechst Celanese Professor Emeritus of Chemical Engineering at North Carolina State University. He is coauthor of Teaching and Learning STEM (2016) and Elementary Principles of Chemical Processes (2015). He has contributed over 600 publications to the fields of science and engineering education and chemical process engineering. With his wife and colleague, Dr. Rebecca Brent he regularly offers teaching effectiveness workshops on campuses and at conferences around the world. He has seven spectacular grandkids and an equally spectacular grand niece.
+                Dr. Richard M. Felder is the Hoechst Celanese Professor Emeritus of Chemical Engineering at North Carolina State University. He is coauthor of Teaching and Learning STEM (2016) and Elementary Principles of Chemical Processes (2015). He has contributed over 500 publications to the fields of science and engineering education and chemical process engineering. With his wife and colleague, Dr. Rebecca Brent he regularly offers teaching effectiveness workshops on campuses and at conferences around the world. He has seven spectacular grandkids and an equally spectacular grand niece.
             </p>
             <hr> 
                 This guide is a treasure trove of examples and advice, which examines the very practical issues of designing and delivering instruction. In this book Feldman and Brent answer the following questions on how to:
@@ -231,7 +230,7 @@
     border: 1px solid #ccc;
     width: 800px;
     border-left: none;
-    height: 600px;
+    height: 500px;
 }
     </style>
 </head>
